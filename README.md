@@ -1,2 +1,2 @@
 ## Portfolio
-# link [https://portfolioashiq.herokuapp.com/] (ashiq)
+link [Ashiq](https://portfolioashiq.herokuapp.com/)
