@@ -10,17 +10,18 @@ export const headData = {
 // HERO DATA
 export const heroData = {
   title: '',
-  name: '',
-  subtitle: '',
+  name: 'Ashiq',
+  subtitle: 'Welcome to my portfolio',
   cta: '',
 };
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
+  img: 'profile.jpeg',
+  paragraphOne: 'I am a Graduate student in Computer Science at the University of Cincinnati.',
+  paragraphTwo:
+    'Experienced React developer. Language agnostic with most expertise in C++, Python, JavaScript.',
+  paragraphThree: 'Very strong in data structures and algorithms',
   resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
 };
 
@@ -28,30 +29,33 @@ export const aboutData = {
 export const projectsData = [
   {
     id: uuidv1(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: 'project1.png',
+    title: 'Sorting Visualizer',
+    info:
+      'Built React application for visualizing sorting algorithms in a very pleasing way. Implemented Merge sort, Quick sort, Heap sort and Bubble sort. Sorting algorithm doing the heavy lifting was written in javascript. Animation done by a combination of HTML, CSS and JSX (react). The sorting is repeated with each CSS element in JSX.',
+    info2: 'Technology: Git, HTML 5, CSS3, Flexbox, Ecmascript, Javascript, React',
+    url: 'https://sortingvisualizerr.herokuapp.com/',
+    repo: 'https://github.com/ashikvahab/Sorting-Visualizer.git', // if no repo, the button will not show up
   },
   {
     id: uuidv1(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: 'project4.png',
+    title: 'Pathfinding Visualizer',
+    info:
+      'Built React application for visualizing path-finding algorithms. Visualized Dijkstra’s with JavaScript for the logic, CSS and JSX for the animation',
+    info2: 'Git, HTML 5, CSS 3, Flexbox, Ecmascript, Javascript, React',
+    url: 'https://pathfindingvisualizer.herokuapp.com/',
+    repo: 'https://github.com/ashikvahab/Pathfinding_Visualizer', // if no repo, the button will not show up
   },
   {
     id: uuidv1(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
+    img: 'rsa.png',
+    title: 'RSA Cryptosystem in C++',
+    info:
+      'Implemented RSA (Rivest-Shamir–Adleman) cryptosystem in C++. Used Miller-Rabin Primality Test for checking primality. Implemented Euclid’s Greatest Common Divisor algorithm, modular multiplicative inverse and modular multiplication. Used Unicode for padding and RSA algorithm for the encryption and decryption part of the project',
+    info2: 'Technology: C++',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: 'https://github.com/ashikvahab/RSA_cryptosystem', // if no repo, the button will not show up
   },
 ];
 
@@ -59,36 +63,36 @@ export const projectsData = [
 export const contactData = {
   cta: '',
   btn: '',
-  email: '',
+  email: 'ashik.w@gmail.com',
 };
 
 // FOOTER DATA
 export const footerData = {
   networks: [
-    {
-      id: uuidv1(),
-      name: 'twitter',
-      url: '',
-    },
-    {
-      id: uuidv1(),
-      name: 'codepen',
-      url: '',
-    },
+    // {
+    //   id: uuidv1(),
+    //   name: 'twitter',
+    //   url: '',
+    // },
+    // {
+    //   id: uuidv1(),
+    //   name: 'codepen',
+    //   url: '',
+    // },
     {
       id: uuidv1(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/ashiqwahab/',
     },
     {
       id: uuidv1(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/ashikvahab',
     },
   ],
 };
 
 // Github start/fork buttons
 export const githubButtons = {
-  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
+  isEnabled: false, // set to false to disable the GitHub stars/fork buttons
 };
